@@ -1,7 +1,7 @@
 import os
 import telebot
 
-# Берём токен и ID админа из переменных окружения
+
 TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 ADMIN_CHAT_ID = int(os.getenv("ADMIN_CHAT_ID", "0"))
 
